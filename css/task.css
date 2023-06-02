@@ -1,0 +1,42 @@
+/* h1{
+    color: blue;
+}
+
+p{
+    color: rgb(150, 20, 107);
+    text-align: center;
+    line-height: 30px ;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+    font-style: italic;
+    font-size: large;
+}
+body{
+    background-color: darksalmon;
+} */
+table{
+    background-size:height="500px" width="150px";
+    background-position: center;
+    font-size: 25px;
+    color: fuchsia; 
+    padding: auto;
+    float: inline-start;
+    border: dashed;
+    background-color: chartreuse;
+   
+}
+input{
+    background-color: rgb(233, 210, 78);
+    color: rgb(235, 17, 17);
+    bottom: hover;
+}
+h1{
+    background-position: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(28, 122, 122);
+    font-style: italic;
+}
+body{
+    background-color: background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);;
+}

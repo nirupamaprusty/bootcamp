@@ -1,0 +1,85 @@
+/* .p3{ 
+    color: chartreuse;
+    font-size: 30px;
+}
+/*
+selector select html element
+css- single element
+css- grouping element(p2,p1....)
+css id selector
+css- class selector
+
+*/
+
+h1{
+    color: blue;
+}
+p{
+    color: crimson;
+}
+/* #p1{
+    color: darkgreen;
+    background-color: darkorange;
+}*/
+
+/*.p2, #p1{
+    color: chartreuse;
+    font-size: 30px;
+    background-color: aqua;
+}*/
+
+.Div {
+    background-color: rgb(213, 222, 86);
+}
+
+input[name="firstname"]
+{
+    background-color: lightsalmon;
+}
+div.div1 p {
+
+}
+p{
+    background-color: rgb(201, 144, 201) !important;
+}
+
+
+
+/* SINGLE and multi-line comment */
+/* @font-face{ */
+    /* font-family: the name from file ;
+    scr: link from google or download file
+    font-size: 30px
+ } */
+ 
+ .divHeading{
+     font-family: /*font family name; */
+ }
+ #p3
+ .font {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    color: maroon;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 30px ;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-decoration:line-through dotted;
+    font-style: italic;
+}
+/* colors in css */
+.heading1{
+    color: darkslategrey;
+    /* background-color: rgba(227, 242, 64, 0.5); */
+    background-color: hsla(0, 79%, 29%s, 0.7);
+}
+body{
+    background-image:src "image(https://unsplash.com/photos/7uSsVEbzKmY)";
+   
+}
+/* *
+ */
+ 
+

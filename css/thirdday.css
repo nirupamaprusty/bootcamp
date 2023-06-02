@@ -1,0 +1,19 @@
+input[type="text"]
+{
+    border: 0px;
+    border-bottom: 3px solid black;
+    height: 30px;
+    width: 200px;
+    background-color: aquamarine;
+    text-align: center;
+    /* border-radius: 30px; */
+    /* cursor:progress; */
+    font-size: 20px;
+    outline: none;
+    
+}
+/* write a property which bring to the another element - lewis
+which property will you use */
+.h11,.h12{
+    display: inline;
+}

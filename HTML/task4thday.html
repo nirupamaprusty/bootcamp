@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign box</title>
+</head>
+<body>
+    <h1> Registration Form</h1>
+    <form action="">
+    <tr>
+        <table width="400px"  cellpading="0" cellspacing="0"
+    style="background-color: rgb(52, 44, 143);">
+    <tr style="background-color: rgb(239, 9, 9);">
+        <td colspan="2">Registration Form</td>
+        </tr>
+        <td>Enter Name</td>
+        <Td> <input type="text"placeholder="Enter Name"></Td>
+    </tr>
+    <tr>
+        <td> Enter Passward</td>
+        <Td> <input type="text"placeholder="Enter Passward"></Td>
+    </tr>
+    <tr>
+        <td> Enter Address</td>
+        <Td> <input width="20" height="20" type="text"placeholder="Enter Address"></Td>
+    </tr>
+    <tr>
+        <td> Select Game</td>
+        <Td> <input type="checkbox">Hockey</Td>
+        <Td> <input type="checkbox">Football</td>
+        <Td> <input type="checkbox">Badminton</Td>
+        <Td> <input type="checkbox">Cricket</Td>
+        <Td> <input type="checkbox">Volly Ball</Td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <Td> <input type="radio" name="Gender">male
+        <input type="radio"name="Gender">Female
+        </Td>
+    </tr>
+    <tr>
+        <td>Select Your Age</td>
+        <td><input type="age number" placeholder="Select Your Age"></td>
+    </tr>
+    <tr>
+        <td>Select Your Photo</td>
+        <td><input type="file"></td>
+    </tr>
+    <tr>
+        <td colspan="3" style="background-color: rgb(236, 162, 13);">
+            <input style="background-color: aliceblue;" type="Click Me" Value="Click Me"Type="Click Me">
+            <input style="background-color: crimson;" type="Reset" value="Reset"class="Reset">
+            <input style="background-color: aqua;" type="Submit Form" Value="Submit Form"class="submit">
+        </td>
+
+    </tr>
+    </table>
+</form>
+<br>
+<br>
+<ul>
+    <li> Web Designing Tools
+        <ul>
+            <li>HTML
+                <ul>
+                    <li>HTML 4</li>
+                    <li>HTML 5</li>
+                </ul>
+            </li>
+            <li>CSS
+                <ul>
+                    <li>CSS 1.0 in 17 december 1996 by Hackon Wium Lie and Bert Bos</li>
+                    <li>CSS 2.0 in May 1998</li>
+                    <li>CSS 2.1 in 7 June 2011</li>
+                    <li>CSS 3.0 in June 2012</li>
+                </ul>
+            </li>
+            <li>
+                JavaScript
+            </li>
+            <li>
+                Resposive in 19 June 2012
+            </li>
+        </ul>
+
+    </li>
+    <Li> web Development Table
+        <ul>
+            <li>PHP
+            </li>
+            <li>.NET
+                <ul>
+                    <li>C#.Net</li>
+                    <li>VB.Net</li>
+                    <li>ASP.Net</li>
+                </ul>
+            </li>
+            <li>JSP
+            </li>
+        </ul>
+    </Li>
+</ul>
+<br>
+<br>
+<br>
+<div class="header"></div>
+<div class="footer"></div>
+<!--semantic element (which describe the job they do) learn replacement of div is header ,footer,article,section....-->
+<header></header>
+<footer></footer>
+<table></table>
+<figure>
+    <img height="200" width="200" src="/file/pi5razBAT.jpg" alt="flower picture">
+    <figcaption> flower picture</figcaption>
+</figure>
+<br>
+<br>
+<nav>
+    <a href="/HTML/1stday.html">1st</a>
+    <a href="/HTML/2ndday.html">2nd</a>
+    <a href="/HTML/3rdday.html">3rd</a>
+</nav>
+<!--create a articles having title and some details
+create a simple nav bar having three tab with links open
+add a picture with caption
+use semantic tag-->
+
+<br>
+<article class="all-browsers">
+    <h1>Most Popular Browsers</h1>
+    <article class="browser">
+      <h2>Google Chrome</h2>
+      <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+    </article>
+    <article class="browser">
+      <h2>Mozilla Firefox</h2>
+      <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+    </article>
+    <article class="browser">
+        <h2>Microsoft Edge</h2>
+        <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+      </article>
+</article>
+<br>
+    <footer>
+        <p>Author: Hege Refsnes</p>
+        <p><a href="email">hege@example.com</a></p>
+    </footer>
+<br>
+    <aside>
+           python
+    </aside>
+<!--HTML form-->
+<!-- A form uses the <form> tag(semantic tag :)
+    for each row of the form two lines of code are needed using
+<lable> and <input>-->
+    <!--<lable> will be the text describing the box e.g "First name"
+        it will be also have a for attribute that enables it to the link
+        with the input id(these need to be the same)-->
+
+    <!--<input> will have multiple attributes, these will change
+    depending on input type.
+standard attribute include "type"(determine type of attribute)
+"id"(may use by css or js)
+and "name"(this will link to the lable via for)-->
+<form action="">
+    <label for="name">Enter your Name</label>
+    <input type="text" id="name" name="name">
+</form>
+<!-- selection option-->
+<select name="" id="">
+    <option value="country">Select Country</option>
+    <option value="uk">United kingdom</option>
+    <option value="usa">United States of America</option>
+    <option value="Ger">Germany</option>
+</select>
+<!--Field set and Legend
+they are used to group relevant items-->
+<fieldset>
+    <legend>user login form</legend>
+    <form action="">
+        <input type="text" id="username">
+        <input type="password" id="password">
+        <input type="submit" >
+    </form>
+
+</fieldset>
+<section>
+    <section style="background-color: darkorange;"><h1> sign up</h1>
+    </section>
+    <form action="">
+        <label for="name"> first name</label>
+        <input type="name" placeholder="first name">
+        <label for="name"> first name</label>
+        <input type="name" placeholder="first name">
+        <label for="name"> first name</label>
+        <input type="name" placeholder="first name">
+        <label for="name"> first name</label>
+        <input type="name" placeholder="first name">
+    </form>
+</section>
+
+</body>
+</html>

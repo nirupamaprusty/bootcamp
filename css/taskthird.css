@@ -1,0 +1,41 @@
+ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    background-color: rgb(240, 174, 240);
+}
+li a{
+    color: darkblue;
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: larger;
+    text-decoration: none;
+
+
+}
+li{
+ display: inline;
+
+}
+li a:hover{
+    background-color: aqua ;
+
+}
+.subList{
+    display: inline-block;
+}
+.subMenu{
+    display: none;
+    position: absolute;
+    width: 200px;
+    background-color: rgb(49, 59, 59);
+
+}
+.subList:hover .subMenu{
+    display: block;
+}
+.subMenu a{
+    display: block;
+    text-align: left;
+}
+    

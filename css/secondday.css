@@ -1,0 +1,41 @@
+.p1{
+    background-color: rgb(171, 153, 188);
+    color: rgb(200, 100, 50);
+    font-size: 25px;
+   font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    /*font-variant: small-caps;*/
+    text-decoration: underline;
+    font-style: italic;
+  
+}
+.p2{
+    background-color: chartreuse;
+    color: darkred;
+    font-size: medium;
+    font-style: oblique;
+}
+div{
+    background-color: aqua;
+    background-image: url("https://images.pexels.com/photos/2406382/pexels-photo-2406382.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load.jeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: "100vh" "100dvw";
+    background-origin: padding-box;
+    background-attachment: scroll;
+    background-attachment: ;
+}
+.paragraph1{
+    border-style: solid;
+    border-width: 20px;
+    border-color: blueviolet;
+}
+.profile{
+    border-left-style: double;
+   border-width: 10px;
+   border-color: crimson;
+}
+
+
